@@ -40,18 +40,6 @@ Choose email and password:
 
 Add the user with “ADD USER” button.
 
-## Create the Xcode project
-
-This tutorial will focus on the creation of a simple **single view application**. In the next tutorial you will approach the creation of a more realistic **multi tab application** \(similar to Whatsapp\).
-
-First open Xcode, select File &gt; New &gt; Project and choose Single View App:
-
-![](http://www.chat21.org/wp-content/uploads/2018/02/xcode-create-project-step1-1030x742.png)
-
-Insert the project info using **MyChat** as project name and insert your team:  
-
-![](../.gitbook/assets/create-swift-mychat.png)
-
 ## Create the Firebase iOS App
 
 Switch on the project on Firebase, go to the _Firebase Console_ &gt; _Project Overview_ and add a **iOS App** to your project by clicking on “Add iOS App” and follow the setup steps.
@@ -80,4 +68,4 @@ end
 
 > **pod install**
 
-From now on open the project using _MyChat.xcworkspace_ file.
+From now on open the project using _MyChatAdvanced.xcworkspace_ file.
