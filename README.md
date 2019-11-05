@@ -1,8 +1,20 @@
 Chat21 is the core of the open source live chat platform [Tiledesk.com](http://www.tiledesk.com).
 
-# get-started-tutorial-ios
-The iOS Get started tutorial
+# chat21-swift-playground
+This App shows some basic features of Chat21 iOS with swift language.
 
-Please refer to this tutorial to setup and run this project:
+To run this project:
 
-[Get Started Tutorial - iOS](https://github.com/chat21/chat21-docs/blob/master/ios/get-started.md)
+## Create pod file
+
+In the project's root folder create a file named 'Podfile' with this content:
+
+<pre><code>
+platform :ios, '10.0'
+
+target 'MyChat' do
+  pod 'Chat21'
+end
+</code></pre>
+
+
