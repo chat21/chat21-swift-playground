@@ -1,7 +1,7 @@
 Chat21 is the core of the open source live chat platform [Tiledesk.com](http://www.tiledesk.com).
 
 # chat21-swift-playground
-This App shows some basic features of Chat21 iOS with swift language.
+This App shows some basic features of Chat21 iOS with Swift language.
 Please follow the instructions to run this project.
 
 ## Prerequisites
