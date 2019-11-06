@@ -79,6 +79,13 @@
                                     <action selector="plugSelectContactAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YZO-Gq-y4g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcy-tQ-FTa">
+                                <rect key="frame" x="152.5" y="409" width="109" height="30"/>
+                                <state key="normal" title="Write to Mr. Leo"/>
+                                <connections>
+                                    <action selector="writeToSomeoneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiu-0X-pwf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -94,12 +101,14 @@
                             <constraint firstItem="aVF-y1-dQg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="137" id="bVT-RC-smg"/>
                             <constraint firstItem="Arf-k4-rt2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="e9a-rZ-uUR"/>
                             <constraint firstItem="ewF-cJ-R6S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="gAH-JG-Tp7"/>
+                            <constraint firstItem="rcy-tQ-FTa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="365" id="gM3-oF-42O"/>
                             <constraint firstItem="ewF-cJ-R6S" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gaA-fk-nxh"/>
                             <constraint firstItem="vBt-go-8eX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hj0-dk-R1y"/>
                             <constraint firstItem="vBt-go-8eX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="327" id="lG3-xd-6ck"/>
                             <constraint firstItem="vnw-7u-dqv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="207" id="pUz-jX-1vh"/>
                             <constraint firstItem="sYo-2X-hnc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="rRj-h7-a9h"/>
                             <constraint firstItem="7Cl-RM-X8Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="289" id="wab-zJ-BvB"/>
+                            <constraint firstItem="rcy-tQ-FTa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="y02-kt-gco"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -18,16 +18,6 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     @IBAction func registerAction(_ sender: Any) {
         let email = "andre1@email.it"; /** FIREBASE USER EMAIL **/
         let password = "123456"; /** FIREBASE USER PASSWORD **/
@@ -118,7 +108,6 @@ class HomeViewController: UIViewController {
             print("profile view render")
             let storyboard: UIStoryboard  = UIStoryboard.init(name: "Main", bundle: nil);
             let profileVC: ProfileViewController = storyboard.instantiateViewController(withIdentifier: "user-profile-vc") as! ProfileViewController
-            
             profileVC.user = user
             vc?.navigationController?.pushViewController(profileVC, animated: true)
         }
@@ -155,4 +144,13 @@ class HomeViewController: UIViewController {
         print("Custom Select Contact View plugged in")
     }
     
+    @IBAction func writeToSomeoneAction(_ sender: Any) {
+        let contact: ChatUser = ChatUser()
+        contact.userId = "5aaa99024c3b110014b478f0";
+        contact.firstname = "Andrew";
+        contact.lastname = "Leo";
+        ChatUIManager.getInstance()?.openConversationMessagesViewAsModal(with: contact, viewController: self, withCompletionBlock: { () in
+            print("Messages view dismissed.");
+        });
+    }
 }
